@@ -2,10 +2,10 @@
 
 This is a fork of [generator-mocha-testem](https://github.com/callumlocke/generator-mocha-testem) and [mocha-sinon-traceur-example](https://github.com/uxebu/mocha-sinon-traceur-example)
 
-An simple babel(es6) / mocha(bdd) scaffold that uses:
+An simple coffescript / mocha(bdd) scaffold that uses:
 
 *   gulp
-*   babel (es6 transpiler)
+*   coffeescript
 *   testem
 *   requireJS
 
@@ -20,7 +20,7 @@ npm link
 
 ####Then from inside another directory where you wish to initialize the project
 ```
-yo mocha-testem-babel
+yo gulp-coffee-mocha-testem
 ```
 
-After it finishes installing dependencies run `gulp` in one terminal sheel, and `testem` in the another. 
+After it finishes installing dependencies run `gulp` in one terminal sheel, and `gulp test` in the another. 
