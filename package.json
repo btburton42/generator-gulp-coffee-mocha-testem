@@ -1,7 +1,7 @@
 {
   "name": "generator-gulp-coffee-mocha-testem",
   "version": "0.1.0",
-  "description": "A bare bones skeleton for ES6 projects managed by testem",
+  "description": "Generates a bare bones project skeleton using gulp, coffeescript and testem",
   "preinstall": "npm install -g yo",
   "repository": {
     "type": "git",
