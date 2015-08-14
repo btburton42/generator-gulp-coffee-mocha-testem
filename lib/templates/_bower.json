@@ -1,21 +1,10 @@
 {
-  "name": "generator-testem-babel",
-  "version": "0.1.0",
-  "authors": [
-    "Tyler Burton <btburton42@gmail.com>"
-  ],
-  "moduleType": [
-    "amd",
-    "es6",
-    "globals"
-  ],
-  "license": "MIT",
+  "name": "<%= appName %>",
   "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
-    "test",
-    "tests"
+    "spec"
   ],
   "dependencies": {
     "requirejs": "~2.1.16"

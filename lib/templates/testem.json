@@ -1,6 +1,6 @@
 {
   "framework": "mocha",
-  "test_page": "test/testem.mustache",
+  "test_page": "spec/testem.mustache",
   "launch_in_dev": [
     "Chrome Canary",
     "PhantomJS"
@@ -11,7 +11,8 @@
     "Safari",
     "PhantomJS"
   ],
-  "src_files": [
-    "test/**/*.js"
+  "serve_files": [
+    ".tmp/**/*.js",
+    "lib/**/*.js"
   ]
 }

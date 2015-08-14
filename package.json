@@ -1,11 +1,11 @@
 {
-  "name": "generator-mocha-testem-coffee",
+  "name": "generator-gulp-coffee-mocha-testem",
   "version": "0.1.0",
   "description": "A bare bones skeleton for ES6 projects managed by testem",
   "preinstall": "npm install -g yo",
   "repository": {
     "type": "git",
-    "url": "https://github.com/btburton42/generator-testem-coffee"
+    "url": "https://github.com/btburton42/generator-gulp-coffee-mocha-testem"
   },
   "keywords": [
     "gulp",
@@ -20,9 +20,9 @@
   "author": "Tyler Burton",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/btburton42/generator-testem-coffee/issues"
+    "url": "https://github.com/btburton42/generator-gulp-coffee-mocha-testem/issues"
   },
-  "homepage": "https://github.com/btburton42/generator-testem-coffee",
+  "homepage": "https://github.com/btburton42/generator-gulp-coffee-mocha-testem",
   "dependencies": {
     "yeoman-generator": "^0.17.3"
   }
