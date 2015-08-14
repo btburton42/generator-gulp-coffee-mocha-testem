@@ -20,7 +20,9 @@ paths =
 gulp.task 'default', ['coffee:compile', 'sass:compile', 'watch'], () ->
 
 gulp.task 'watch', () ->
+  livereload.listen()
   gulp.watch paths.coffee, ['coffee:compile']
+  gulp.watch paths.sass, ['sass:compile']
 
 gulp.task 'test', ['coverage'], () ->
   gulp.src([''])

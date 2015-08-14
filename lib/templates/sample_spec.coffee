@@ -1,4 +1,3 @@
 describe '<%= appName %>', ->
-  describe 'initialize', ->
-    it 'should run here few assertions', ->
-      console.log 'there'
+  it 'should exist on the window', ->
+    expect(window.<%= className %>).to.exist

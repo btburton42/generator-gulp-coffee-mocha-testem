@@ -1,9 +1,10 @@
 ((factory) ->
   if define?.amd
     define [], () ->
-      factory
+      window.<%= className %> ||= new(factory)
   else
-    factory
+    window.<%= className %> ||= new(factory)
 ) ($) ->
-  class <%= appName %>
+  class <%= className %>
     constructor: ->
+      console.log @

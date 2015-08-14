@@ -6,13 +6,12 @@
     "PhantomJS"
   ],
   "launch_in_ci": [
-    "Chrome Canary",
+    "Google Chrome",
     "Firefox",
     "Safari",
     "PhantomJS"
   ],
   "serve_files": [
-    ".tmp/**/*.js",
-    "lib/**/*.js"
+    ".tmp/**/*.js"
   ]
 }
