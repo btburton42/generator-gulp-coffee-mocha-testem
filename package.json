@@ -1,6 +1,6 @@
 {
   "name": "generator-gulp-coffee-mocha-testem",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Generates a bare bones project skeleton using gulp, coffeescript and testem",
   "preinstall": "npm install -g yo",
   "repository": {
