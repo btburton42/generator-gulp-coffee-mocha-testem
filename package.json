@@ -1,0 +1,29 @@
+{
+  "name": "generator-mocha-testem-coffee",
+  "version": "0.1.0",
+  "description": "A bare bones skeleton for ES6 projects managed by testem",
+  "preinstall": "npm install -g yo",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/btburton42/generator-testem-coffee"
+  },
+  "keywords": [
+    "gulp",
+    "es6",
+    "coffeescript",
+    "testem",
+    "scaffold",
+    "frontend",
+    "yeoman-generator",
+    "bdd"
+  ],
+  "author": "Tyler Burton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/btburton42/generator-testem-coffee/issues"
+  },
+  "homepage": "https://github.com/btburton42/generator-testem-coffee",
+  "dependencies": {
+    "yeoman-generator": "^0.17.3"
+  }
+}

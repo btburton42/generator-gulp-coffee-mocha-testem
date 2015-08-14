@@ -1,0 +1,17 @@
+{
+  "framework": "mocha",
+  "test_page": "test/testem.mustache",
+  "launch_in_dev": [
+    "Chrome Canary",
+    "PhantomJS"
+  ],
+  "launch_in_ci": [
+    "Chrome Canary",
+    "Firefox",
+    "Safari",
+    "PhantomJS"
+  ],
+  "src_files": [
+    "test/**/*.js"
+  ]
+}
