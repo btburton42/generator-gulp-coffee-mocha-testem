@@ -1,4 +1,4 @@
-##Testem Babel Generator
+##Testem Generator
 
 This is a fork of [generator-mocha-testem](https://github.com/callumlocke/generator-mocha-testem) and [mocha-sinon-traceur-example](https://github.com/uxebu/mocha-sinon-traceur-example)
 
